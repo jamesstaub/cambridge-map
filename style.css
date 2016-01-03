@@ -1,0 +1,10 @@
+.description {
+	position: fixed;
+	color: white;
+	bottom: 50px;
+	left: 70px;
+	z-index: 3;
+	font-family: arial, sans-serif;
+	font-size: 26px;
+	width: 200px;
+}
