@@ -8,10 +8,8 @@ def get_coords(project):
 
 coords = map(get_coords, projects)
 
-with open('project_urls', 'wb') as myfile:
-    wr = csv.writer(myfile, quoting=csv.QUOTE_ALL)
-    wr.writerow(project_urls)
-
-
-
-
+# with open('coords.csv', "w") as the_file:
+#     csv.register_dialect("custom", delimiter=" ", skipinitialspace=True)
+#     writer = csv.writer(the_file, dialect="custom")
+#     for tup in coords:
+#         writer.write(tup)

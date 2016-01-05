@@ -1,10 +1,18 @@
-.description {
+.cartodb-timeslider {
+	display: none !important;
+}
+
+.year {
 	position: fixed;
 	color: white;
 	bottom: 50px;
 	left: 70px;
 	z-index: 3;
 	font-family: arial, sans-serif;
-	font-size: 26px;
+	font-size: 46px;
 	width: 200px;
+}
+
+div.cartodb-timeslider p {
+	font-size: 24px;
 }
